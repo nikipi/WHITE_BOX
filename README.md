@@ -21,3 +21,17 @@ To understand individual predictions
 
 Credits to https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values.
 Thanks for the great tutorial
+
+## Counterfactual Explanations
+How:
+
+Change the feature values of an instance before making the predictions and we analyze how the prediction changes
+
+Criterion for counterfactual explanations:
+1. the minimum changes to the features so that the prediction changes 
+
+2. Change as few feature as possible
+
+3. the change should be achieveable e.g you cannot enlarge the size of your house, even model shows 10 m2 bigger could raise the rent
+
+$L\left(x, x^{\prime}, y^{\prime}, \lambda\right)=\lambda \cdot\left(\hat{f}\left(x^{\prime}\right)-y^{\prime}\right)^{2}+d\left(x, x^{\prime}\right)$

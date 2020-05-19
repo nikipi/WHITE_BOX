@@ -34,6 +34,4 @@ Criterion for counterfactual explanations:
 
 3. the change should be achieveable e.g you cannot enlarge the size of your house, even model shows 10 m2 bigger could raise the rent
 
-$$
-L\left(x, x^{\prime}, y^{\prime}, \lambda\right)=\lambda \cdot\left(\hat{f}\left(x^{\prime}\right)-y^{\prime}\right)^{2}+d\left(x, x^{\prime}\right)
-$$
+## Local interpretable model-agnostic explanations(LIME)
